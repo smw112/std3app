@@ -1,0 +1,18 @@
+// Ref: https://github.com/nuxt-community/vuetify-module#customvariables
+//
+// The variables you want to modify
+// $font-size-root: 20px;
+$body-font-family: 'M PLUS Rounded 1c';
+$font-size-root: 18px;
+@import '~vuetify/src/styles/styles.sass';
+.v-application--wrap {
+    background-color: rgb(255, 252, 241);
+}
+
+.u-pre-wrap {
+    white-space: pre-wrap;
+}
+
+.c-title {
+    font-family: 'Cabin Sketch', cursive;
+}
